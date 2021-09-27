@@ -1,6 +1,6 @@
 module.exports = {
     prefix: "+", // The prefix of the bot
-    welcomeChannel: "890878003633070091", // The channel ID of where join and leave messages should be sent
+    welcomeChannel: "", // The channel ID of where join and leave messages should be sent
     slashCommands: true, // Whether or not the bot should have slash commands
     colors: {
         main: [0, 110, 255],
@@ -10,7 +10,7 @@ module.exports = {
         enabled: false, // Whether or not the bot should have a status
         status: "idle", // The status of the bot (dnd, online, idle, invisible)
         activity_type: "playing", // The type of the activity (watching, listening, playing, streaming)
-        activity_text: "Watching your invites", // The activity text
+        activity_text: "", // The activity text
         activity_url: "" // The stream URL
     },
     inviteRewards: false, // Wether or not invite rewards should be enabled
